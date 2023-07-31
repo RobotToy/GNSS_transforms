@@ -1,0 +1,8 @@
+##  ned_frame_params.yaml
+# contains static transform from the GNSS frame to the NED frame
+ned_transforms:
+  - parent_frame: "gnss_frame"
+    child_frame: "ned_frame"
+    translation: [0.0, 0.0, 0.0]
+    rotation: [0.0, 0.0, 0.0, 1.0]  # Replace with your desired rotation (if needed)
+
